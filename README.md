@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+Emilio Funes - Backend Developer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+¡Hola! Soy Emilio Funes, un desarrollador backend especializado en construir soluciones robustas y escalables con tecnologías como Java y Spring Boot. Aunque también tengo experiencia en el desarrollo frontend, mi verdadero interés radica en el backend, donde puedo enfocarme en la lógica de negocio, la arquitectura de sistemas y la optimización del rendimiento. Mi objetivo es seguir asumiendo desafíos cada vez más complejos en el ámbito del desarrollo de software.
 
-## Available Scripts
+🚀 Sobre mí
 
-In the project directory, you can run:
+Como desarrollador backend, me destaco en la creación de arquitecturas sólidas que soportan aplicaciones eficientes y seguras. Me especializo en el diseño y la implementación de APIs RESTful, la integración con bases de datos relacionales y la gestión de la lógica empresarial en sistemas distribuidos. Aunque puedo trabajar en el frontend con tecnologías como React y Thymeleaf, mi preferencia y pasión están en el backend, donde puedo aprovechar al máximo mis habilidades técnicas y analíticas.
 
-### `npm start`
+💼 Proyectos Destacados
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+API de Gestión de Productos
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Desarrollo de una API completa para la gestión de productos en una tienda virtual. La aplicación permite la administración de productos, categorías y usuarios, utilizando autenticación segura y un sistema de vistas dinámicas con Thymeleaf.
 
-### `npm test`
+● Rol Principal: Diseño y desarrollo del backend y frontend.
+● Tecnologías: Java, Spring Boot, Thymeleaf, MySQL
+● Características:
+        ✔ CRUD completo de productos con validaciones y control de acceso.
+        ✔ Implementación de autenticación y autorización de usuarios.
+        ✔ Integración con MySQL para la gestión de datos.
+        ✔ Interfaz de usuario desarrollada con Thymeleaf para administración.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Plataforma de E-commerce (En Desarrollo)
 
-### `npm run build`
+Actualmente, estoy trabajando en un proyecto de e-commerce diseñado como un monolito que integra múltiples funcionalidades avanzadas, tales como la administración de productos, la autenticación de usuarios y una pasarela de pagos. Este proyecto me ha permitido experimentar con la integración de servicios complejos y escalables.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+● Rol Principal: Arquitectura y desarrollo integral de la plataforma.
+● Tecnologías: Java, Spring Boot, MySQL, Spring Security, Thymeleaf, React
+● Características:
+        ✔ Plataforma de administración para la gestión de productos, usuarios y pedidos.
+        ✔ Implementación de autenticación segura y gestión de roles con JWT.
+        ✔ Integración con pasarelas de pago como Mercado Pago.
+        ✔ Sistema modular y escalable para futuras expansiones.
+        ✔ Desarrollo de la interfaz de usuario utilizando React y Thymeleaf.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🛠️ Habilidades Técnicas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+● Lenguajes: Java, SQL, JavaScript
+● Frameworks y Librerías: Spring Boot, Spring Security, Hibernate, Thymeleaf, React
+● Bases de Datos: MySQL, PostgreSQL
+● Herramientas: Docker, Git, IntelliJ IDEA
+● Metodologías: RESTful APIs, Clean Architecture, MVC
 
-### `npm run eject`
+📈 Habilidades Blandas
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+● Pensamiento Analítico: Habilidad para descomponer problemas complejos y desarrollar soluciones eficientes.
+● Colaboración: Trabajo en equipo y comunicación efectiva para alcanzar objetivos comunes.
+● Adaptabilidad: Capacidad para aprender y aplicar nuevas tecnologías rápidamente.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🌱 Próximos Pasos
+Mi objetivo es seguir escalando mis proyectos, optimizando la arquitectura y las funcionalidades, y explorando nuevas tecnologías que permitan mejorar el rendimiento y la seguridad de mis aplicaciones. Aunque puedo aportar en el desarrollo frontend, mi enfoque principal continuará siendo el backend, donde me siento más desafiado y realizado.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🌐 Contáctame
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Estoy interesado en oportunidades que me permitan seguir desarrollándome como backend developer y contribuir con soluciones de alto impacto. Si tienes alguna propuesta o te gustaría saber más sobre mi trabajo, no dudes en contactarme:
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+● Correo Electrónico: emilio.ifunes@hotmail.es
+● LinkedIn: [Emilio Funes](https://www.linkedin.com/in/emilio-funes-8b140b21a/)
+● GitHub: [github.com/EmiFunes91](https://github.com/EmiFunes91)
