@@ -13,8 +13,11 @@ API de Gestión de Productos
 Desarrollo de una API completa para la gestión de productos en una tienda virtual. La aplicación permite la administración de productos, categorías y usuarios, utilizando autenticación segura y un sistema de vistas dinámicas con Thymeleaf.
 
 ● Rol Principal: Diseño y desarrollo del backend y frontend.
+
 ● Tecnologías: Java, Spring Boot, Thymeleaf, MySQL.
+
 ● Características:
+
         ✔ CRUD completo de productos con validaciones y control de acceso.
         ✔ Implementación de autenticación y autorización de usuarios.
         ✔ Integración con MySQL para la gestión de datos.
@@ -25,8 +28,11 @@ Plataforma de E-commerce (En Desarrollo)
 Actualmente, estoy trabajando en un proyecto de e-commerce diseñado como un monolito que integra múltiples funcionalidades avanzadas, tales como la administración de productos, la autenticación de usuarios y una pasarela de pagos. Este proyecto me ha permitido experimentar con la integración de servicios complejos y escalables.
 
 ● Rol Principal: Arquitectura y desarrollo integral de la plataforma.
-● Tecnologías: Java, Spring Boot, MySQL, Spring Security, Thymeleaf, React
+
+● Tecnologías: Java, Spring Boot, MySQL, Spring Security, Thymeleaf, React.
+
 ● Características:
+
         ✔ Plataforma de administración para la gestión de productos, usuarios y pedidos.
         ✔ Implementación de autenticación segura y gestión de roles con JWT.
         ✔ Integración con pasarelas de pago como Mercado Pago.
@@ -36,15 +42,21 @@ Actualmente, estoy trabajando en un proyecto de e-commerce diseñado como un mon
 🛠️ Habilidades Técnicas
 
 ● Lenguajes: Java, SQL, JavaScript
+
 ● Frameworks y Librerías: Spring Boot, Spring Security, Hibernate, Thymeleaf, React
+
 ● Bases de Datos: MySQL, PostgreSQL
+
 ● Herramientas: Docker, Git, IntelliJ IDEA
+
 ● Metodologías: RESTful APIs, Clean Architecture, MVC
 
 📈 Habilidades Blandas
 
 ● Pensamiento Analítico: Habilidad para descomponer problemas complejos y desarrollar soluciones eficientes.
+
 ● Colaboración: Trabajo en equipo y comunicación efectiva para alcanzar objetivos comunes.
+
 ● Adaptabilidad: Capacidad para aprender y aplicar nuevas tecnologías rápidamente.
 
 🌱 Próximos Pasos
@@ -55,5 +67,7 @@ Mi objetivo es seguir escalando mis proyectos, optimizando la arquitectura y las
 Estoy interesado en oportunidades que me permitan seguir desarrollándome como backend developer y contribuir con soluciones de alto impacto. Si tienes alguna propuesta o te gustaría saber más sobre mi trabajo, no dudes en contactarme:
 
 ● Correo Electrónico: emilio.ifunes@hotmail.es
+
 ● LinkedIn: [Emilio Funes](https://www.linkedin.com/in/emilio-funes-8b140b21a/)
+
 ● GitHub: [github.com/EmiFunes91](https://github.com/EmiFunes91)
