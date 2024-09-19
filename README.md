@@ -13,7 +13,7 @@ API de Gestión de Productos
 Desarrollo de una API completa para la gestión de productos en una tienda virtual. La aplicación permite la administración de productos, categorías y usuarios, utilizando autenticación segura y un sistema de vistas dinámicas con Thymeleaf.
 
 ● Rol Principal: Diseño y desarrollo del backend y frontend.
-● Tecnologías: Java, Spring Boot, Thymeleaf, MySQL
+● Tecnologías: Java, Spring Boot, Thymeleaf, MySQL.
 ● Características:
         ✔ CRUD completo de productos con validaciones y control de acceso.
         ✔ Implementación de autenticación y autorización de usuarios.
