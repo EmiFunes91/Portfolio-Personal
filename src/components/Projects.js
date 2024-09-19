@@ -17,30 +17,18 @@ export const Projects = () => {
       GitHubUrl: "https://github.com/EmiFunes91/store", // Enlace al repositorio
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Gestión de Productos",
+      description: "Desarrollo e implementación",
       imgUrl: projImg2,
+      GitHubUrl: "https://github.com/EmiFunes91/TechMarketPro", // Enlace al repositorio
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Gestión de Usuarios",
+      description: "Control y administración",
       imgUrl: projImg3,
+      GitHubUrl: "https://github.com/EmiFunes91/crud-utn", // Enlace al repositorio
     },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
+
   ];
 
   return (
@@ -81,9 +69,6 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="third">
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
                     </Tab.Pane>
                   </Tab.Content>
