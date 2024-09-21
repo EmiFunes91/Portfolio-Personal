@@ -1,8 +1,8 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import colorSharp from "../assets/img/color-sharp.png";
-import { FaJava, FaReact, FaJsSquare, FaDocker} from "react-icons/fa";
-import { SiSpringboot, SiMysql, SiVisualstudiocode, SiIntellijidea, SiGit, SiGithub } from "react-icons/si";
+import { FaJava, FaReact, FaJsSquare, FaDocker } from "react-icons/fa";
+import { SiSpringboot, SiMysql, SiVisualstudiocode, SiIntellijidea, SiApachemaven, SiGit, SiGithub, SiHtml5, SiCss3 } from "react-icons/si";
 
 export const Skills = () => {
   const responsive = {
@@ -54,6 +54,10 @@ export const Skills = () => {
                   <h5>MySQL</h5>
                 </div>
                 <div className="item">
+                  <SiApachemaven size={70} color="#b52754" /> {/* Ícono de MySQL */}
+                  <h5>Maven</h5>
+                </div>
+                <div className="item">
                   <FaDocker size={70} color="#2496ED" /> {/* Ícono de Docker */}
                   <h5>Docker</h5>
                 </div>
@@ -66,6 +70,16 @@ export const Skills = () => {
                   {/* Ícono de JavaScript */}
                   <h5>JavaScript</h5>
                 </div>
+                <div className="item">
+                  <SiHtml5 size={70} color="#f26430" />{" "}
+                  {/* Ícono de HTML */}
+                  <h5>HTML</h5>
+                  </div>
+                  <div className="item">
+                  <SiCss3 size={70} color="#08abf3" />{" "}
+                  {/* Ícono de CSS */}
+                  <h5>CSS</h5>
+                  </div>
                 <div className="item">
                   <SiGit size={70} color="#e74823" />{" "}
                   {/* Ícono de Git */}
@@ -91,7 +105,7 @@ export const Skills = () => {
           </div>
         </div>
       </div>
-      <img className="background-image-left" src={colorSharp} alt="Image" />
+      <img className="background-image-left" src={colorSharp} alt="" />
     </section>
   );
 };
