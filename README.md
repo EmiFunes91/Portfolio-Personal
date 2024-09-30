@@ -45,7 +45,7 @@ Actualmente, estoy trabajando en un proyecto de e-commerce diseñado como un mon
 
 ● Frameworks y Librerías: Spring Boot, Spring Security, Hibernate, Thymeleaf, React
 
-● Bases de Datos: MySQL, PostgreSQL
+● Bases de Datos: MySQL
 
 ● Herramientas: Docker, Git, IntelliJ IDEA
 
