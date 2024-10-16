@@ -2,7 +2,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import colorSharp from "../assets/img/color-sharp.png";
 import { FaJava, FaReact, FaJsSquare, FaDocker } from "react-icons/fa";
-import { SiSpringboot, SiMysql, SiVisualstudiocode, SiIntellijidea, SiApachemaven, SiGit, SiGithub, SiHtml5, SiCss3 } from "react-icons/si";
+import { SiSpringboot, SiMysql, SiPostgresql, SiVisualstudiocode, SiIntellijidea, SiApachemaven, SiGit, SiGithub, SiHtml5, SiCss3 } from "react-icons/si";
 
 export const Skills = () => {
   const responsive = {
@@ -52,6 +52,10 @@ export const Skills = () => {
                 <div className="item">
                   <SiMysql size={70} color="#00758F" /> {/* Ícono de MySQL */}
                   <h5>MySQL</h5>
+                </div>
+                <div className="item">
+                  <SiPostgresql size={70} color="#396c94" /> {/* Ícono de PostgreSQL */}
+                  <h5>PostgreSQL</h5>
                 </div>
                 <div className="item">
                   <SiApachemaven size={70} color="#b52754" /> {/* Ícono de MySQL */}
