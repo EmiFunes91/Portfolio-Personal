@@ -1,7 +1,7 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import colorSharp from "../assets/img/color-sharp.png";
-import { FaJava, FaReact, FaJsSquare, FaDocker } from "react-icons/fa";
+import { FaJava, FaReact, FaJsSquare, FaDocker} from "react-icons/fa";
 import { SiSpringboot, SiMysql, SiPostgresql, SiVisualstudiocode, SiIntellijidea, SiApachemaven, SiGit, SiGithub, SiHtml5, SiCss3 } from "react-icons/si";
 
 export const Skills = () => {
