@@ -13,7 +13,7 @@ export const Contact = () => {
     message: ''
   };
   const [formDetails, setFormDetails] = useState(formInitialDetails);
-  const [buttonText, setButtonText] = useState('Send');
+  const [buttonText, setButtonText] = useState('Enviar');
   const [status, setStatus] = useState({});
   const [errors, setErrors] = useState({});
 
@@ -63,21 +63,27 @@ export const Contact = () => {
       return;
     }
 
-    setButtonText("Sending...");
-    let response = await fetch("http://localhost:5000/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json;charset=utf-8",
-      },
-      body: JSON.stringify(formDetails),
-    });
-    setButtonText("Send");
-    let result = await response.json();
-    setFormDetails(formInitialDetails);
-    if (result.code === 200) {
-      setStatus({ success: true, message: 'Message sent successfully' });
-    } else {
-      setStatus({ success: false, message: 'Something went wrong, please try again later.' });
+    try {
+      setButtonText("Enviando...");
+      const response = await fetch("http://localhost:5000/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formDetails),
+      });
+
+      if (response.ok) {
+        setStatus({ success: true, message: 'Mensaje enviado correctamente.' });
+        setFormDetails(formInitialDetails); // Reinicia el formulario
+      } else {
+        const result = await response.json();
+        setStatus({ success: false, message: result.message || 'Error al enviar el mensaje. Inténtalo de nuevo.' });
+      }
+    } catch (error) {
+      setStatus({ success: false, message: 'Error de conexión. Inténtalo más tarde.' });
+    } finally {
+      setButtonText("Enviar");
     }
   };
 
@@ -88,7 +94,7 @@ export const Contact = () => {
           <Col size={12} md={6}>
             <TrackVisibility>
               {({ isVisible }) =>
-                <img className={isVisible ? "animate__animated animate__zoomIn" : ""} src={contactImg} alt="Contact Us" />
+                <img className={isVisible ? "animate__animated animate__zoomIn" : ""} src={contactImg} alt="Contáctame" />
               }
             </TrackVisibility>
           </Col>
@@ -163,3 +169,4 @@ export const Contact = () => {
 }
 
 export default Contact;
+
