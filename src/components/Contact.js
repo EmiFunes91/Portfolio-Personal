@@ -65,7 +65,7 @@ export const Contact = () => {
 
     try {
       setButtonText("Enviando...");
-      const response = await fetch("http://localhost:5000/contact", {
+      const response = await fetch("https://mi-backend.onrender.com/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -75,7 +75,7 @@ export const Contact = () => {
 
       if (response.ok) {
         setStatus({ success: true, message: 'Mensaje enviado correctamente.' });
-        setFormDetails(formInitialDetails); // Reinicia el formulario
+        setFormDetails(formInitialDetails); //Reinicia el formulario
       } else {
         const result = await response.json();
         setStatus({ success: false, message: result.message || 'Error al enviar el mensaje. Inténtalo de nuevo.' });
