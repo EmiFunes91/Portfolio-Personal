@@ -20,7 +20,7 @@ export const Contact = () => {
   // Validaciones
   const validateName = (name) => /^[a-zA-Z\s]+$/.test(name);
   const validateEmail = (email) => /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(email);
-  const validatePhone = (phone) => /^[0-9]{8,}$/.test(phone); // Al menos 8 dígitos
+  const validatePhone = (phone) => /^[0-9]{8,}$/.test(phone); //Al menos 8 dígitos
   const validateMessage = (message) => message.length >= 50;
 
   const onFormUpdate = (category, value) => {
