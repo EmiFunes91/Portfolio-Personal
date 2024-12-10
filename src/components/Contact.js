@@ -59,7 +59,7 @@ export const Contact = () => {
 
     // Validación final antes de enviar
     if (!validateName(formDetails.firstName) || !validateName(formDetails.lastName) || !validateEmail(formDetails.email) || !validatePhone(formDetails.phone) || !validateMessage(formDetails.message)) {
-      setStatus({ success: false, message: 'Por favor revisa los campos del formulario.' });
+      setStatus({ success: false, message: 'Por favor revisa los campos del formulario' });
       return;
     }
 
